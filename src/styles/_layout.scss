@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+pre{
+    margin-top: 1rem;
+    background: whitesmoke;
+    padding: 1rem;
+    white-space: pre-wrap;
+}
+
+footer{
+    background: black;
+    height: 4rem;
+    padding: auto;
+
+    div{
+        padding-top: 1rem;
+        text-align: center;
+        color: white;
+    }
+}
