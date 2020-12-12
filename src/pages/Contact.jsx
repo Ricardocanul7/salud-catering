@@ -1,5 +1,6 @@
 import React from 'react'
 import { DidYouKnow } from '../components/DidYouKnow'
+import { FindUs } from '../components/FindUs'
 
 export const Contact = () => {
     return (
@@ -9,7 +10,8 @@ export const Contact = () => {
                     <div className="col-sm-6 col-md-8 py-5">
                         <div className="border rounded shadow p-5">
                             <h1 className="text-center">
-                                Contacto
+                                {/* Contacto */}
+                                Kontakt
                             </h1>
 
                             <section className="contact-info-section">
@@ -17,26 +19,34 @@ export const Contact = () => {
                                     <strong>Tel:</strong> +48 506 438 823
                                 </p>
                                 <p>
-                                Lunes a viernes: 8.00-19.00
+                                {/* Lunes a viernes: 8.00-19.00 */}
+                                pon-pt: 8.00-19.00
                                 </p>
                                 <p>
-                                Sábado: 9.00 a 14.00
+                                {/* Sábado: 9.00 a 14.00 */}
+                                sobota: 9.00-14.00
                                 </p>
                                 <p>
-                                    <strong>Horarios de oficina</strong>
+                                    {/* <strong>Horarios de oficina</strong> */}
+                                    <strong>Godziny otwarcia biura</strong>
                                 </p>
                                 <p>
-                                Lunes a viernes: 8.00 a 16.00
+                                {/* Lunes a viernes: 8.00 a 16.00 */}
+                                pon-pt: 8.00-16.00
                                 </p>
                                 <p>
-                                    <strong>Horarios de oficina</strong><br/>
+                                    <strong>
+                                        {/* Horarios de oficina */}
+                                        Biuro obsługi:
+                                    </strong><br/>
                                     biuro@saludcatering.pl
                                 </p>
                             </section>
 
                             <section className="map-section">
                                 <h5>
-                                    ¡Estamos aquí!
+                                    {/* ¡Estamos aquí! */}
+                                    Jesteśmy tutaj!
                                 </h5>
                                 <iframe
                                     title="map"
@@ -68,6 +78,8 @@ export const Contact = () => {
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6 py-5 pr-3">
+                        <FindUs />
+                        <br/>
                         <DidYouKnow />
                     </div>
                 </div>
