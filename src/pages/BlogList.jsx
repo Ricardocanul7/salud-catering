@@ -13,7 +13,7 @@ export const BlogList = () => {
                     <div className="col py-5 d-flex flex-wrap">
                         {
                                 posts.map((value, index) => (
-                                    <Link key={value.id} to={'/blogpost/' + value.id} className="m-2 w-25" style={{textDecoration: 'none', color: 'black'}}>
+                                    <Link key={value.id} to={'/blogpost/' + value.id} className="blogCard m-2 w-25" style={{textDecoration: 'none', color: 'black'}}>
                                         <div className="border rounded shadow p-5">
                                             <h4>{value.title}</h4>
                                             <p><i>{value.date}</i></p>
