@@ -23,7 +23,7 @@ export const price_list_data = {
                     '76zł',
                 ],
                 [
-                    'zamówienie tygodniowe',
+                    'zamówienie miesięczne',
                     '63zł',
                     '65zł',
                     '67zł',
@@ -56,7 +56,7 @@ export const price_list_data = {
                     '67zł',
                 ],
                 [
-                    'zamówienie tygodniowe',
+                    'zamówienie miesięczne',
                     '56zł',
                     '58zł',
                     '60zł',
@@ -89,7 +89,7 @@ export const price_list_data = {
                     '73zł',
                 ],
                 [
-                    'zamówienie tygodniowe',
+                    'zamówienie miesięczne',
                     '62zł',
                     '64zł',
                     '66zł',
